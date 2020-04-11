@@ -5,7 +5,6 @@ import authReducer from './authReducer';
 import setAuthToken from '../../utils/setAuthToken';
 
 import {
-  REMOVE_ALERT,
   REGISTER_SUCCESS,
   REGISTER_FAIL,
   USER_LOADED,
@@ -99,7 +98,7 @@ const AuthState = props => {
   }
   
   // Logout 
-  const logout = () => console.log('logout');
+  const logout = () => dispatch({ type: LOGOUT });
 
   // Clear Errors
   const clearErrors = () => dispatch({ type: CLEAR_ERRORS });

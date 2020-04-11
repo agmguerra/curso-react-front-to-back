@@ -35,7 +35,7 @@ const Login = (props) => {
     if (email === '' || password === '') {
       setAlert('Please fill in all field', 'danger');
     } else {
-      login(email, password);
+      login({email, password});
     } 
   }
 
