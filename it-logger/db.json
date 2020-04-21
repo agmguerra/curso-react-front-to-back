@@ -4,8 +4,8 @@
       "id": 1,
       "message": "Changed network card in server 007",
       "attention": false,
-      "tech": "Sam Smith",
-      "date": "2020-04-21T14:52:12.240Z"
+      "tech": "Sara Wilson",
+      "date": "2020-04-21T20:24:54.971Z"
     },
     {
       "message": "1122 wireless down",
@@ -20,6 +20,13 @@
       "attention": true,
       "tech": "John Doe",
       "date": "2020-04-21T15:03:47.189Z"
+    },
+    {
+      "id": 5,
+      "message": "Resolver Problema",
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2020-04-21T20:41:38.178Z"
     }
   ],
   "techs": [
@@ -37,6 +44,11 @@
       "id": 3,
       "firstName": "Sara",
       "lastName": "Wilson"
+    },
+    {
+      "firstName": "Alexandre",
+      "lastName": "Guerra",
+      "id": 4
     }
   ]
 }
